@@ -12,31 +12,38 @@ sections:
 
         <br>
 
-        ### 地址
+        **地址**
 
         XX省XX市XX区XX路XX号
+
         XX大学 XX楼 XX室
 
         <br>
 
-        ### 邮箱
+        **邮箱**
 
         wangwenliang@example.edu.cn
 
         <br>
 
-        ### 电话
+        **电话**
 
         +86-XXX-XXXX-XXXX
 
         <br>
 
-        ### 办公时间
+        **传真**
 
-        周一至周五 9:00 - 17:00
+        +86-XXX-XXXX-XXXX
+
+        <br>
+
+        **办公时间**
+
+        周一至周五 09:00 - 17:00
 
     design:
       columns: '2'
       spacing:
-        padding: ['40px', '0', '40px', '0']
+        padding: ['50px', '30px', '50px', '30px']
 ---

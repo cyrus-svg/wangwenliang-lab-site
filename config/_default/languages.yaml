@@ -1,16 +1,21 @@
-# Languages
-#   Create a section for each of your site's languages.
+# 语言配置
 
-# 中文（默认语言）
+# 中文（唯一语言）
 zh:
   languageCode: zh-Hans
   languageName: 中文
   weight: 1
   title: 王文亮实验室
-
-# 英文（可选）
-en:
-  languageCode: en-us
-  languageName: English
-  weight: 2
-  title: Wang Wenliang Lab
+  params:
+    description: 王文亮实验室官方网站
+  menu:
+    main:
+      - name: 首页
+        url: '#about'
+        weight: 10
+      - name: 研究团队
+        url: people
+        weight: 20
+      - name: 联系我们
+        url: contact
+        weight: 30
