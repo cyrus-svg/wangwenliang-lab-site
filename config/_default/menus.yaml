@@ -7,12 +7,6 @@ main:
   - name: 研究团队
     url: people
     weight: 20
-  - name: 发表论文
-    url: publication
-    weight: 30
-  - name: 新闻动态
-    url: post
-    weight: 40
   - name: 联系我们
     url: contact
-    weight: 50
+    weight: 30
