@@ -1,11 +1,7 @@
 ---
-title: Latest News
-
-# Listing view
-view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+title: 新闻动态
+date: 2024-01-01
+type: post
 ---
+
+实验室新闻动态。

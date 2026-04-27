@@ -1,10 +1,10 @@
 ---
-title: Publications
+title: 发表论文
 
-# Listing view
+# 列表视图
 view: citation
 
-# Optional banner image (relative to `assets/media/` folder).
+# 可选横幅图片
 banner:
   caption: ''
   image: ''

@@ -1,26 +1,24 @@
 ---
-title: People
-date: 2022-10-24
+title: 研究团队
+date: 2024-01-01
 
 type: landing
 
 sections:
   - block: people
     content:
-      title: Meet the Team
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      title: 团队成员
+      # 选择要显示的用户组
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
+          - 导师
+          - 博士后
+          - 博士生
+          - 硕士生
+          - 已毕业学生
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: false
+      show_interests: true
       show_role: true
       show_social: true
 ---

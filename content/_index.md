@@ -1,80 +1,63 @@
 ---
-# Leave the homepage title empty to use the site title
+# 首页配置
 title:
-date: 2022-10-24
+date: 2024-01-01
 type: landing
 
 sections:
+  # 实验室介绍
   - block: hero
     content:
       title: |
-        Wang Wenliang
-        Lab
+        王文亮实验室
+        Wang Wenliang Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
 
-        Welcome to **Wang Wenliang Lab**. We are a research group dedicated to advancing knowledge in our field.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
+        欢迎来到**王文亮实验室**。我们致力于相关领域的前沿研究工作。
+
+  # 简介板块
   - block: markdown
     content:
-      title:
+      title: 关于我们
       subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      text: |
+        实验室简介占位文字。这里可以介绍实验室的研究方向、学术背景、主要成就等内容。
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+        ### 研究方向
 
+        - 研究方向一
+        - 研究方向二
+        - 研究方向三
+
+        ### 主要成果
+
+        在相关领域发表了多篇高水平论文，取得了重要进展。
+    design:
+      columns: '2'
+
+  # 团队成员按钮
   - block: markdown
     content:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="查看研究团队 →" %}}
     design:
+      columns: '1'
+
+  # 最新论文
+  - block: collection
+    content:
+      title: 最新发表论文
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - publication
+    design:
+      view: citation
       columns: '1'
 ---
