@@ -1,9 +1,169 @@
-// Make page header alignment consistent with widget page header alignment
-.universal-wrapper h1 {
+// 中式简约风格定制
+
+// ========== 颜色配置（传统中国红 + 墨色）==========
+:root {
+  --color-primary: #8B4513;      // 褐色（稳重学术感）
+  --color-accent: #C41E3A;       // 中国红
+  --color-text: #2C2C2C;         // 墨色
+  --color-light: #F5F5F5;        // 灰白
+}
+
+// ========== 字体优化（适合中文阅读）==========
+body {
+  font-family: "Source Han Sans SC", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "SimSun", serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+// ========== 导航栏样式 ==========
+.navbar {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2C2C2C !important;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #555 !important;
+  padding: 0.5rem 1.2rem !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #8B4513 !important;
+}
+
+// ========== 首页英雄区 ==========
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2C2C2C;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #666;
   text-align: center;
 }
 
-// Center the CTA shortcode button
+// ========== 标题居中 ==========
+.universal-wrapper h1 {
+  text-align: center;
+  color: #2C2C2C;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+// ========== 内容卡片 ==========
+.article-card {
+  background: #FFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.article-card:hover {
+  border-color: #8B4513;
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
+}
+
+// ========== CTA按钮居中 ==========
 .cta-group {
   justify-content: center;
+}
+
+.btn-primary {
+  background: #8B4513 !important;
+  border-color: #8B4513 !important;
+  color: #FFF !important;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background: #A0522D !important;
+  border-color: #A0522D !important;
+}
+
+// ========== 页脚样式 ==========
+footer {
+  background: #2C2C2C !important;
+  color: #AAA;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #DDD;
+}
+
+// ========== 成员卡片 ==========
+.people-card {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.people-card .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #E8E8E8;
+  margin-bottom: 1rem;
+}
+
+.people-card .name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2C2C2C;
+}
+
+.people-card .role {
+  color: #8B4513;
+  font-size: 0.9rem;
+}
+
+// ========== 页面容器宽度 ==========
+.container {
+  max-width: 1100px;
+}
+
+// ========== 隐藏多余元素 ==========
+.search-button {
+  display: none;
+}
+
+.day-night-toggle {
+  display: none;
+}
+
+// ========== 响应式调整 ==========
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
 }

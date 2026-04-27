@@ -1,9 +1,7 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# 网站配置
+# 文档: https://docs.hugoblox.com/
 
-# Appearance
+# 外观设置 - 中式简约风格
 
 appearance:
   theme_day: minimal
@@ -11,15 +9,15 @@ appearance:
   font: native
   font_size: L
 
-# SEO
+# SEO设置
 
 marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'Wang Wenliang Lab - Research Group Website'
-    twitter: 'GetResearchDev'
+    org_name: '王文亮实验室'
+    description: '王文亮实验室官方网站'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -29,37 +27,37 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
+# 网站头部
 
 header:
   navbar:
     enable: true
-    align: r
+    align: l
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    show_day_night: false
+    show_search: false
+    highlight_active_link: true
 
-# Site footer
+# 网站底部
 
 footer:
   copyright:
-    notice: '© {year} Wang Wenliang Lab'
+    notice: '© {year} 王文亮实验室 版权所有'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-# Localization
+# 本地化设置（中文格式）
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  date_format: '2006年1月2日'
+  time_format: '15:04'
+  address_format: zh-cn
 
-# Site features
+# 网站功能
 
 features:
   syntax_highlighter:
@@ -72,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: ''
     content_dir: content
     branch: main
   avatar:
@@ -80,29 +78,14 @@ features:
     shape: circle
   comment:
     provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
     provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
   map:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
 
-# Extensions
+# 扩展
 
 extensions:
   decap_cms:
@@ -111,8 +94,8 @@ extensions:
   academicons:
     enable: true
 
-# Citation style
+# 引用格式
 
 publications:
-  date_format: January 2006
+  date_format: 2006年1月
   citation_style: apa

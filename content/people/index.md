@@ -7,8 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: 团队成员
-      # 选择要显示的用户组
+      title: ''
       user_groups:
           - 导师
           - 博士后

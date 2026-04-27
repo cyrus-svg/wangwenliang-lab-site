@@ -10,15 +10,15 @@ last_name: Wang Wenliang
 superuser: true
 
 # 职位
-role: 教授 / 博士生导师
+role: 教授、博士生导师
 
 # 所属单位
 organizations:
-  - name: XX大学
+  - name: XX大学 XX学院
     url: ''
 
 # 简介
-bio: 王文亮教授长期从事相关领域的研究工作。
+bio: 长期从事相关领域的教学与研究工作。
 
 # 研究兴趣
 interests:
