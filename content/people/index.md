@@ -10,7 +10,7 @@ sections:
       title: 研究团队
       text: |
         实验室坚持“大道至简，谦逊求真，见贤思齐”的文化理念，鼓励跨领域合作，尊重个人发展与创新，积极支持探索与自由思考。
-        本页面展示导师信息与团队成员构成。
+        本页面展示导师信息与团队成员构成，支持按成员分组浏览。
 
     design:
       columns: '1'
@@ -63,4 +63,16 @@ sections:
       show_social: true
       spacing:
         padding: ['20px', '30px', '40px', '30px']
+
+  - block: markdown
+    content:
+      title: 加入我们
+      text: |
+        欢迎具有材料、化学、生物医学工程、神经科学等背景的同学与青年学者加入团队开展交叉研究。
+
+        联系方式请见首页“联系我们”板块。
+    design:
+      columns: '1'
+      spacing:
+        padding: ['10px', '30px', '50px', '30px']
 ---

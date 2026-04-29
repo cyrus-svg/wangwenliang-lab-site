@@ -9,6 +9,7 @@
   --light-bg: #F8F9FA;           // 浅背景
   --border-color: #E5E5E5;       // 边框色
   --white: #FFFFFF;
+  --navbar-height: 60px;
 }
 
 // ========== 全局样式 ==========
@@ -18,6 +19,7 @@ body {
   line-height: 1.8;
   color: var(--text-color);
   background: var(--white);
+  padding-top: var(--navbar-height);
 }
 
 // 字体平滑
@@ -37,7 +39,7 @@ body {
   box-shadow: none !important;
   z-index: 1000;
   padding: 0 !important;
-  height: 60px;
+  height: var(--navbar-height);
 }
 
 .navbar-container {
@@ -88,7 +90,7 @@ body {
   color: var(--white);
   padding: 80px 0;
   text-align: center;
-  margin-top: 60px; // 导航栏高度
+  margin-top: 0;
 }
 
 .hero-title {
@@ -297,7 +299,16 @@ h1, .universal-wrapper h1 {
 .view-hero {
   background: var(--primary-color) !important;
   padding: 80px 20px !important;
-  margin-top: 60px;
+  margin-top: 0;
+}
+
+// 锚点滚动补偿，避免被固定导航栏遮挡
+section[id],
+div[id],
+[id="about"],
+[id="research"],
+[id="contact"] {
+  scroll-margin-top: calc(var(--navbar-height) + 16px);
 }
 
 // 板块标题
