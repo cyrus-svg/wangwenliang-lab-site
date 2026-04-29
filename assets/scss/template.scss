@@ -429,6 +429,61 @@ table td {
   color: var(--primary-color) !important;
 }
 
+// 研究团队页精修
+.team-intro-banner {
+  border-left: 5px solid var(--primary-color);
+  background: #eef5fb;
+  padding: 16px 18px;
+  border-radius: 6px;
+}
+
+.team-intro-banner p {
+  margin: 0 0 8px 0;
+}
+
+.team-intro-banner p:last-child {
+  margin-bottom: 0;
+}
+
+.pi-profile-card {
+  background: #ffffff;
+  border: 1px solid #d9e4ef;
+  border-top: 4px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.joinus-card {
+  background: #f7fbff;
+  border: 1px dashed #9fbad3;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.joinus-card p {
+  margin: 0 0 8px 0;
+}
+
+.joinus-card p:last-child {
+  margin-bottom: 0;
+}
+
+.people-widget .card-simple {
+  border: 1px solid #dfe7ef;
+  border-radius: 10px;
+  padding: 18px 14px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.people-widget .portrait {
+  margin-bottom: 0.8rem;
+}
+
+.people-widget .avatar {
+  border: 3px solid #e7eef6;
+}
+
 // ========== 响应式设计 ==========
 @media (max-width: 768px) {
   .navbar-brand {
