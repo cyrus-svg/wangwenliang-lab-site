@@ -9,7 +9,7 @@
   --light-bg: #F8F9FA;           // 浅背景
   --border-color: #E5E5E5;       // 边框色
   --white: #FFFFFF;
-  --navbar-height: 58px;
+  --navbar-height: 72px;
 }
 
 // ========== 全局样式 ==========
@@ -24,6 +24,10 @@ body {
 
 html {
   scroll-padding-top: calc(var(--navbar-height) + 18px);
+}
+
+.page-body {
+  padding-top: 10px;
 }
 
 // 字体平滑
@@ -317,7 +321,7 @@ div[id],
 [id="research"],
 [id="contact"],
 [id="people"] {
-  scroll-margin-top: calc(var(--navbar-height) + 16px);
+  scroll-margin-top: calc(var(--navbar-height) + 24px);
 }
 
 // 板块标题
