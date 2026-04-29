@@ -7,7 +7,7 @@ sections:
   - block: hero
     id: about
     content:
-      title: 王文亮实验室
+      title: 王文靓实验室
       text: |
         北京大学药学院药剂学系  
         天然药物及仿生药物全国重点实验室
@@ -18,11 +18,26 @@ sections:
     content:
       title: 实验室简介
       text: |
-        王文亮，Ph.D，北京大学药学院药剂学系 Tenure-track 助理教授、博士生导师，天然药物及仿生药物全国重点实验室 PI。研究团队基于聚焦超声技术，融合纳米工程与神经科学，发展超声-纳米-神经交互技术，面向非侵入神经调控与脑疾病精准诊疗。
+        王文靓，Ph.D，北京大学药学院药剂学系 Tenure-track 助理教授、博士生导师，天然药物及仿生药物全国重点实验室 PI。研究团队基于聚焦超声技术，融合纳米工程与神经科学，发展超声-纳米-神经交互技术，面向非侵入神经调控与脑疾病精准诊疗。
 
         我们通过构建纳米体系作为能量转导器，桥联特定神经元与超声波，实现外源神经信息写入与神经信号读取的非侵入式脑神经交互。
 
         **实验室文化**：大道至简，谦逊求真，见贤思齐。
+
+        <div class="lab-highlight-grid">
+          <div class="lab-highlight-card">
+            <h4>研究定位</h4>
+            <p>聚焦超声-纳米-神经交互，强调机制创新与临床转化结合。</p>
+          </div>
+          <div class="lab-highlight-card">
+            <h4>平台方向</h4>
+            <p>发展超声可编程递送、超声探针器件与闭环脑机体系。</p>
+          </div>
+          <div class="lab-highlight-card">
+            <h4>人才培养</h4>
+            <p>鼓励跨学科合作，支持学生独立思考与自由探索。</p>
+          </div>
+        </div>
     design:
       columns: '1'
       background:

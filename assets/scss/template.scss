@@ -9,7 +9,7 @@
   --light-bg: #F8F9FA;           // 浅背景
   --border-color: #E5E5E5;       // 边框色
   --white: #FFFFFF;
-  --navbar-height: 60px;
+  --navbar-height: 58px;
 }
 
 // ========== 全局样式 ==========
@@ -20,6 +20,10 @@ body {
   color: var(--text-color);
   background: var(--white);
   padding-top: var(--navbar-height);
+}
+
+html {
+  scroll-padding-top: calc(var(--navbar-height) + 18px);
 }
 
 // 字体平滑
@@ -311,7 +315,8 @@ section[id],
 div[id],
 [id="about"],
 [id="research"],
-[id="contact"] {
+[id="contact"],
+[id="people"] {
   scroll-margin-top: calc(var(--navbar-height) + 16px);
 }
 
@@ -360,6 +365,34 @@ table th,
 table td {
   padding: 10px 12px;
   vertical-align: top;
+}
+
+// 首页色块卡片（高校课题组风格）
+.lab-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.lab-highlight-card {
+  border: 1px solid var(--border-color);
+  border-top: 4px solid var(--secondary-color);
+  background: #fbfdff;
+  padding: 14px 16px;
+  border-radius: 6px;
+}
+
+.lab-highlight-card h4 {
+  margin: 0 0 6px 0;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.lab-highlight-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
 }
 
 // CTA 按钮
@@ -416,5 +449,9 @@ table td {
 
   .navbar-nav .nav-link {
     padding: 14px 12px !important;
+  }
+
+  .lab-highlight-grid {
+    grid-template-columns: 1fr;
   }
 }

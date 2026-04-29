@@ -6,6 +6,7 @@ type: landing
 
 sections:
   - block: markdown
+    id: people
     content:
       title: 研究团队
       text: |
@@ -21,7 +22,7 @@ sections:
     content:
       title: 导师简介
       text: |
-        王文亮，Ph.D，北京大学药学院药剂学系 Tenure-track 助理教授、博士生导师，天然药物及仿生药物全国重点实验室 PI。
+        王文靓，Ph.D，北京大学药学院药剂学系 Tenure-track 助理教授、博士生导师，天然药物及仿生药物全国重点实验室 PI。
 
         **教育及工作背景**
 

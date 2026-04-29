@@ -15,8 +15,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: '王文亮实验室'
-    description: '王文亮实验室官方网站'
+    org_name: '王文靓实验室'
+    description: '王文靓实验室官方网站'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} 王文亮实验室 版权所有'
+    notice: '© {year} 王文靓实验室 版权所有'
     license:
       enable: false
       allow_derivatives: false
