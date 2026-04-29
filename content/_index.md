@@ -1,95 +1,76 @@
 ---
-# 首页配置
 title:
 date: 2024-01-01
 type: landing
 
 sections:
-  # 顶部横幅
   - block: hero
+    id: about
     content:
       title: 王文亮实验室
-      image:
-        filename: welcome.jpg
       text: |
-        <br>
+        北京大学药学院药剂学系  
+        天然药物及仿生药物全国重点实验室
 
-        XX大学 XX学院
-
-  # 实验室简介
   - block: markdown
     content:
       title: 实验室简介
       text: |
+        王文亮，Ph.D，北京大学药学院药剂学系 Tenure-track 助理教授、博士生导师，天然药物及仿生药物全国重点实验室 PI。研究团队基于聚焦超声技术，融合纳米工程与神经科学，发展超声-纳米-神经交互技术，面向非侵入神经调控与脑疾病精准诊疗。
 
-        本实验室隶属于XX大学XX学院，主要从事相关领域的科学研究工作。实验室由王文亮教授主持，现有博士后、博士研究生、硕士研究生若干名。
-
-        <br>
-
-        实验室秉承"严谨治学、追求卓越"的理念，致力于推动学科发展，培养优秀科研人才。
-
+        我们通过构建纳米体系作为能量转导器，桥联特定神经元与超声波，实现外源神经信息写入与神经信号读取的非侵入式脑神经交互。
     design:
-      columns: '2'
+      columns: '1'
       background:
         color: white
       spacing:
         padding: ['50px', '30px', '50px', '30px']
 
-  # 研究方向
   - block: markdown
+    id: research
     content:
-      title: 研究方向
+      title: 主要研究方向
       text: |
+        1. **超声的化学、物理与生物效应**：研究超声与材料、细胞、组织的交互机制，指导超声响应材料/基因编辑元件的设计与开发，并探索其在非侵入性药物控制激活、选择性基因控制、特异性细胞行为控制中的应用。
 
-        ### 方向一
+        2. **超声可编程递送体系**：基于超声效应设计合成功能材料，用于小分子药物、蛋白质、基因和细胞等的精准递送，实现非侵入性、可编程激活的脑疾病治疗。
 
-        相关领域的基础理论研究，探索新方法与新思路。
+        3. **超声探针与器件开发**：构建超声响应分子探针或器件，实现神经元细胞/组织活动的高时空分辨监测，用于非侵入神经信号读取、药物可视化、疾病早期诊断及疗效追踪。
 
-        <br>
-
-        ### 方向二
-
-        应用技术开发与产业化研究，解决实际问题。
-
-        <br>
-
-        ### 方向三
-
-        跨学科交叉研究，推动学科融合发展。
-
+        4. **超声脑机技术开发**：构建可穿戴闭环超声脑机体系，实现非侵入外源信息写入与神经信号读取，提升大脑对外界感知反馈，用于自适应、个性化交互。
     design:
-      columns: '3'
+      columns: '1'
       background:
         color: '#F8F9FA'
       spacing:
         padding: ['50px', '30px', '50px', '30px']
 
-  # 团队成员链接
   - block: markdown
     content:
-      title:
+      title: 代表性论文
       text: |
-        <div style="text-align: center; padding: 30px 0;">
-          <a href="./people/" class="btn btn-primary">查看研究团队</a>
-        </div>
+        1. Wang, W.; Shi, Y.; Chai, W.; Tang, K.; Pyatnitskiy, I.; Liu, X.; Shi, X.; Jeong, J.; Lozano, A.; Artman, B.; Henkelman, G.; Chen, B.; Wang, H. H-bonded organic frameworks as ultrasound programmable delivery platform. *Nature*, 2025, 638, 401-410.
+
+        2. Wang, W.; Wu, X.; Tang, K.; Pyatnitskiy, I.; Liu, X.; Shi, X.; Jeong, J.; Lozano, A.; Artman, B.; Fenno, L.; Buch, V.; Wang, H. Sono-optogenetic deep brain stimulation via self-amplifying liposomal nanotransducer. *ACS Nano*, 2023, 17, 24936-24946.
+
+        3. Wang, W.; Tasset, A.; Pyatnitskiy, I.; Lin, P.; Bellamkonda, A.; Metha, R.; Gabbert, C.; Yuan, F.; Peppas, N.; Wang, H. Reversible, covalent DNA condensation approach using chemical linkers for enhanced gene delivery. *Nano Letters*, 2023, 23, 9310-9318.
+
+        4. Wang, W.; Wu, X.; Tang, K.; Pyatnitskiy, I.; Taniguchi, R.; Zhou, R.; Lin, P.; Capocyan, S. L. C.; Hong, G.; Wang, H. Ultrasound-Triggered In Situ Photon Emission for Noninvasive Optogenetics. *J. Am. Chem. Soc.*, 2023, 145(2), 1097-1107.
     design:
       columns: '1'
       background:
         color: white
+      spacing:
+        padding: ['50px', '30px', '30px', '30px']
 
-  # 联系方式
   - block: markdown
+    id: contact
     content:
       title: 联系方式
       text: |
-
-        |  |  |
-        |:---:|:---|
-        | **地址** | XX省XX市XX区XX路XX号 XX大学 XX楼 XX室 |
-        | **邮箱** | wangwenliang@example.edu.cn |
-        | **电话** | +86-XXX-XXXX-XXXX |
-        | **传真** | +86-XXX-XXXX-XXXX |
-
+        - 地址：北京市海淀区北京大学药学院
+        - 邮箱：wangwenliang@example.edu.cn
+        - 更多信息：请查看 [研究团队](./people/)
     design:
       columns: '1'
       background:
