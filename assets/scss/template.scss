@@ -30,6 +30,11 @@ html {
   padding-top: 10px;
 }
 
+// 研究团队页首屏额外补偿（避免标题贴到固定导航下方）
+body[data-wc-page-id="c1d17ff2b20dca0ad6653a3161942b64"] .page-body > section#people.home-section {
+  padding-top: 88px !important;
+}
+
 // 字体平滑
 body {
   -webkit-font-smoothing: antialiased;
