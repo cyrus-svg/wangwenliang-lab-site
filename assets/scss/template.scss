@@ -9,7 +9,7 @@
   --light-bg: #F8F9FA;           // 浅背景
   --border-color: #E5E5E5;       // 边框色
   --white: #FFFFFF;
-  --navbar-height: 72px;
+  --navbar-height: 60px;
 }
 
 // ========== 全局样式 ==========
@@ -19,7 +19,7 @@ body {
   line-height: 1.8;
   color: var(--text-color);
   background: var(--white);
-  padding-top: var(--navbar-height);
+  padding-top: 0;
 }
 
 html {
@@ -27,12 +27,7 @@ html {
 }
 
 .page-body {
-  padding-top: 10px;
-}
-
-// 研究团队页首屏额外补偿（避免标题贴到固定导航下方）
-body[data-wc-page-id="c1d17ff2b20dca0ad6653a3161942b64"] .page-body > section#people.home-section {
-  padding-top: 88px !important;
+  padding-top: calc(var(--navbar-height) + 10px);
 }
 
 // 字体平滑
@@ -326,7 +321,7 @@ div[id],
 [id="research"],
 [id="contact"],
 [id="people"] {
-  scroll-margin-top: calc(var(--navbar-height) + 24px);
+  scroll-margin-top: calc(var(--navbar-height) + 16px);
 }
 
 // 板块标题
